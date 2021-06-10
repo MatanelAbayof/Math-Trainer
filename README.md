@@ -1,2 +1,2 @@
 # Math-Trainer
-Educational Android application of math learning
+Educational Android application of math learning.
