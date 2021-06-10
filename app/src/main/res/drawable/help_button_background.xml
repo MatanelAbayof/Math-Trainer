@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="true" android:state_pressed="true"> <!-- pressed & enabled -->
+		<shape
+			android:shape="oval">
+			<solid
+				android:color="@color/helpBtBackPressed"/>
+			<stroke
+				android:width="2dp"
+				android:color="@color/helpBtStrokePressed"/>
+		</shape>
+	</item>
+	<item android:state_enabled="true" android:state_focused="true"> <!-- focused & enabled -->
+		<shape
+			android:shape="oval">
+			<solid
+				android:color="@color/helpBtBackFocused"/>
+			<stroke
+				android:width="2dp"
+				android:color="@color/helpBtStrokeFocused"/>
+		</shape>
+	</item>
+	<item android:state_enabled="true"> <!-- default & enabled -->
+		<shape
+			android:shape="oval">
+			<solid
+				android:color="@color/helpBtDefBack"/>
+			<stroke
+				android:width="2dp"
+				android:color="@color/helpBtDefStroke"/>
+		</shape>
+	</item>
+</selector>

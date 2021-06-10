@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true"> <!-- pressed & enabled -->
+        <shape>
+            <stroke android:width="4dp" android:color="@color/blueBtPressedBackStroke" />
+            <padding android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp" />
+            <corners android:radius="5dp" />
+            <solid android:color="@color/blueBtPressedBack" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_focused="true"> <!-- focused & enabled -->
+        <shape>
+            <stroke android:width="3dp" android:color="@color/blueBtFocusedBackStroke" />
+            <padding android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp" />
+            <corners android:radius="5dp" />
+            <solid android:color="@color/blueBtFocusedBack" />
+        </shape>
+    </item>
+    <item android:state_enabled="true"> <!-- default & enabled -->
+        <shape>
+            <stroke android:width="2dp" android:color="@color/blueBtBackStroke" />
+            <padding android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp" />
+            <corners android:radius="5dp" />
+            <solid android:color="@color/blueBtBack" />
+        </shape>
+    </item>
+
+    <!-- disabled selector -->
+    <item android:state_enabled="false" android:drawable="@drawable/disabled_bt"/>
+</selector>

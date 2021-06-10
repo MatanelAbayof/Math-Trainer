@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="@dimen/dialog_view_vertical_padding"
+    android:paddingBottom="@dimen/dialog_view_vertical_padding"
+    android:paddingStart="@dimen/dialog_view_horizontal_padding"
+    android:paddingEnd="@dimen/dialog_view_horizontal_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrollView_eq"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <heb.apps.mathtrainer.ui.widget.EquationTV
+            android:id="@+id/equationTV_helpMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar_loading"
+        android:visibility="visible"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

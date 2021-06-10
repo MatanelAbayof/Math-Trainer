@@ -1,0 +1,7 @@
+<resources>
+
+	<string-array name="math_display_types">
+		<item>Beginner</item>
+		<item>Professional</item>
+	</string-array>
+</resources>

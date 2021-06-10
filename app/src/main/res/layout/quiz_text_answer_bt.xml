@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_answerBt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:layout_margin="5dp"
+    android:background="@drawable/bt_answer"
+    android:orientation="horizontal">
+
+	<ImageView
+		android:id="@+id/imageView_resultFeedback"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:padding="5dp"
+		android:layout_centerVertical="true"
+		android:layout_alignParentStart="true"
+		android:visibility="invisible"
+		android:contentDescription="@string/is_corrected_answer" />
+
+	<TextView
+		android:id="@+id/textView_answer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_centerVertical="true"
+		android:layout_toEndOf="@+id/imageView_resultFeedback"
+		android:layout_toStartOf="@+id/view_offset"
+		android:layout_marginStart="3dp"
+		android:layout_marginEnd="3dp"
+		android:textColor="@color/btText"
+		android:textDirection="ltr"
+		android:textSize="25sp"
+		android:text=""/>
+
+
+	<!-- this is offset for TextView-->
+	<View
+		android:id="@+id/view_offset"
+		android:layout_centerVertical="true"
+		android:layout_alignParentEnd="true"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:visibility="invisible"/>
+
+</RelativeLayout>

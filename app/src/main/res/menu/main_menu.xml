@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/share" />
+    <!--TODO make visible-->
+    <item
+        android:id="@+id/about"
+        android:visible="false"
+        android:title="@string/about" />
+    <!--TODO make visible-->
+    <item
+        android:id="@+id/help"
+        android:visible="false"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/contactUs"
+        android:title="@string/contact_us" />
+    <item
+        android:id="@+id/openDbBuilder"
+        android:title="@string/open_db_builder"/>
+    <item
+        android:id="@+id/openTestsActivity"
+        android:title="@string/open_tests_activity"/>
+    <item
+        android:id="@+id/openDummyResActivity"
+        android:title="@string/open_dummy_res_activity"/>
+</menu>

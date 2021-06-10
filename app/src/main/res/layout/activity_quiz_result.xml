@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/relativeLayout_allInfo"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingStart="@dimen/activity_horizontal_padding"
+	android:paddingLeft="@dimen/activity_horizontal_padding"
+	android:paddingTop="@dimen/activity_vertical_padding"
+	android:paddingEnd="@dimen/activity_horizontal_padding"
+	android:paddingRight="@dimen/activity_horizontal_padding"
+	android:paddingBottom="@dimen/activity_vertical_padding"
+	tools:context=".ui.activities.quiz.result.QuizResultActivity">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/relativeLayout_controlBts"
+		android:layout_alignParentTop="true">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/textView_primaryMsg"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text=""
+				android:textColor="@color/quizResPrimaryMsgText"
+				android:textSize="35sp"
+				android:textStyle="bold"
+				app:fontFamily="sans-serif-condensed-medium" />
+
+
+			<heb.apps.mathtrainer.ui.widget.StarsView
+				android:id="@+id/starsView_userStars"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				app:numOfFilledStars="3"
+				app:numOfStars="3"
+				app:starSize="50" />
+
+
+			<include layout="@layout/quiz_result_info_section" />
+
+			<heb.apps.mathtrainer.ui.widget.BaseButton
+				android:id="@+id/button_viewAnswersInfo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="7dp"
+				android:background="@drawable/bt_blue"
+				android:text="@string/more_info"
+				android:textColor="@color/btText"
+				android:textSize="25sp" />
+
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout
+		android:id="@+id/relativeLayout_controlBts"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="3dp"
+		android:layoutDirection="ltr"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:id="@+id/linearLayout_backToMenu"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentStart="true"
+			android:background="@drawable/bt_purple"
+			android:orientation="vertical"
+			android:paddingTop="@dimen/quizResBtPaddingTop"
+			android:paddingStart="@dimen/quizResBtPaddingStartEnd"
+			android:paddingEnd="@dimen/quizResBtPaddingStartEnd"
+			android:paddingBottom="@dimen/quizResBtPaddingBottom">
+
+			<ImageView
+				android:layout_width="@dimen/quizResBtImgSize"
+				android:layout_height="@dimen/quizResBtImgSize"
+				android:contentDescription="@string/backToMenu"
+				android:src="@drawable/ic_arrow_left" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="@dimen/quizResBtTextSize"
+				android:textColor="@color/quizResBtText"
+				android:layout_marginTop="2dp"
+				android:text="@string/backToMenu"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayout_restart"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:background="@drawable/bt_orange"
+			android:orientation="vertical"
+			android:paddingTop="@dimen/quizResBtPaddingTop"
+			android:paddingStart="@dimen/quizResBtPaddingStartEnd"
+			android:paddingEnd="@dimen/quizResBtPaddingStartEnd"
+			android:paddingBottom="@dimen/quizResBtPaddingBottom">
+
+			<ImageView
+				android:layout_width="@dimen/quizResBtImgSize"
+				android:layout_height="@dimen/quizResBtImgSize"
+				android:contentDescription="@string/restart_game"
+				android:src="@drawable/ic_restart" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="@dimen/quizResBtTextSize"
+				android:textColor="@color/quizResBtText"
+				android:layout_marginTop="2dp"
+				android:text="@string/restart_game"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linearLayout_nextLevel"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:background="@drawable/bt_light_green"
+			android:orientation="vertical"
+			android:visibility="invisible"
+			android:paddingTop="@dimen/quizResBtPaddingTop"
+			android:paddingStart="@dimen/quizResBtPaddingStartEnd"
+			android:paddingEnd="@dimen/quizResBtPaddingStartEnd"
+			android:paddingBottom="@dimen/quizResBtPaddingBottom">
+
+			<ImageView
+				android:layout_width="@dimen/quizResBtImgSize"
+				android:layout_height="@dimen/quizResBtImgSize"
+				android:contentDescription="@string/next_level"
+				android:src="@drawable/ic_arrow_right" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textStyle="bold"
+				android:textSize="@dimen/quizResBtTextSize"
+				android:textColor="@color/quizResBtText"
+				android:layout_marginTop="2dp"
+				android:text="@string/next_level"/>
+		</LinearLayout>
+
+	</RelativeLayout>
+</RelativeLayout>

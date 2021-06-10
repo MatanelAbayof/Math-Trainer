@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingTop="@dimen/activity_vertical_padding"
+	android:paddingBottom="@dimen/activity_vertical_padding"
+	android:paddingStart="@dimen/activity_horizontal_padding"
+	android:paddingLeft="@dimen/activity_horizontal_padding"
+	android:paddingEnd="@dimen/activity_horizontal_padding"
+	android:paddingRight="@dimen/activity_horizontal_padding"
+	tools:context=".ui.activities.settings.account.AccountSettActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_userCardInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/button_log_out"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/account_info_title">
+        </TextView>
+
+        <include android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            layout="@layout/user_info_card">
+        </include>
+    </LinearLayout>
+
+
+    <heb.apps.mathtrainer.ui.widget.BaseButton
+        android:id="@+id/button_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:background="@drawable/bt_red"
+        android:textColor="@color/btText"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/log_out">
+    </heb.apps.mathtrainer.ui.widget.BaseButton>
+
+
+</RelativeLayout>

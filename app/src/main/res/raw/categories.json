@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "uniqueName": "arithmetic",
+      "displayName": "Arithmetic",
+      "description": "Traditional operations: addition, subtraction, multiplication and division",
+      "descriptionLink": "https:\/\/en.wikipedia.org\/wiki\/Arithmetic",
+      "imagePath": "arithmetic",
+      "orderIndex": 0
+    }
+  ]
+}

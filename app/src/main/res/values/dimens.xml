@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- general -->
+	<dimen name="activity_horizontal_padding">5dp</dimen>
+	<dimen name="activity_vertical_padding">5dp</dimen>
+	<dimen name="dialog_view_horizontal_padding">10dp</dimen>
+	<dimen name="dialog_view_vertical_padding">5dp</dimen>
+
+	<!--quiz_question_result_info-->
+	<dimen name="quizQuesResInfoLabel">15sp</dimen>
+
+	<!--chooser button-->
+	<dimen name="chooserBtSize">80dp</dimen>
+	<dimen name="chooserLockSize">50dp</dimen>
+
+	<!-- activity_quiz_result -->
+	<dimen name="quizResBtImgSize">50dp</dimen>
+	<dimen name="quizResBtPaddingTop">10dp</dimen>
+	<dimen name="quizResBtPaddingBottom">5dp</dimen>
+	<dimen name="quizResBtPaddingStartEnd">18dp</dimen>
+	<dimen name="quizResBtTextSize">10sp</dimen>
+</resources>

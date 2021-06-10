@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="@dimen/dialog_view_vertical_padding"
+	android:paddingBottom="@dimen/dialog_view_vertical_padding"
+	android:paddingStart="@dimen/dialog_view_horizontal_padding"
+	android:paddingEnd="@dimen/dialog_view_horizontal_padding"
+	android:orientation="vertical">
+
+	<RelativeLayout
+		android:layout_alignParentTop="true"
+		android:layout_above="@+id/checkBox_notShowAgain"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<heb.apps.mathtrainer.ui.widget.WebViewCompat
+			android:id="@+id/webViewCompat_tutorial"
+			android:layout_centerInParent="true"
+			android:visibility="gone"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
+		<ProgressBar
+			android:id="@+id/progressBar_loading"
+			android:visibility="visible"
+			style="?android:attr/progressBarStyle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true" />
+	</RelativeLayout>
+
+	<CheckBox
+		android:id="@+id/checkBox_notShowAgain"
+		android:layout_marginTop="5dp"
+		android:checked="true"
+		android:layout_alignParentBottom="true"
+		android:text="@string/tutorial_dialog_not_show_again"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</RelativeLayout>

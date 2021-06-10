@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout_allInfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+	<TableLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="8"
+		android:stretchColumns="1">
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/question_label"
+				android:textColor="@color/quizQuesResInfoLabel"
+				android:textSize="@dimen/quizQuesResInfoLabel"
+				android:textStyle="bold" />
+
+
+			<heb.apps.mathtrainer.ui.widget.EquationTV
+				android:id="@+id/equationTvQuestion"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="2dp"
+				android:layout_weight="3"
+				app:fontSize="small" />
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/user_answer_label"
+				android:textColor="@color/quizQuesResInfoLabel"
+				android:textSize="@dimen/quizQuesResInfoLabel"
+				android:textStyle="bold" />
+
+			<heb.apps.mathtrainer.ui.widget.EquationTV
+				android:id="@+id/equationTvUserAnswer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="2dp"
+				app:fontSize="small" />
+		</TableRow>
+
+		<TableRow
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:gravity="center_vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/correct_answer_label"
+				android:textColor="@color/quizQuesResInfoLabel"
+				android:textSize="@dimen/quizQuesResInfoLabel"
+				android:textStyle="bold" />
+
+			<heb.apps.mathtrainer.ui.widget.EquationTV
+				android:id="@+id/equationTvCorrectAnswer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="2dp"
+				app:fontSize="small" />
+		</TableRow>
+
+
+
+	</TableLayout>
+
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="3dp"
+		android:layout_weight="2"
+		android:gravity="center"
+		android:orientation="vertical">
+
+
+		<ImageView
+			android:id="@+id/imageView_isCorrectedAnswer"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:contentDescription="@string/is_corrected_answer" />
+
+	</LinearLayout>
+
+
+</LinearLayout>

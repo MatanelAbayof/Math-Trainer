@@ -1,0 +1,2 @@
+include ':app', ':MathView-0.0.6'
+rootProject.name='Math Trainer'

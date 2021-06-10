@@ -1,0 +1,810 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "uniqueName": "level1",
+      "displayName": "שלב 1",
+      "topicId": 1,
+      "difficulty": 1,
+      "tutorialTextInfo": "חיבור היא פעולה המבוצעת על שני מספרים, ופירושה הוספה של אחד מהם לשני. הפעולה מסומנת בסימן +\nדוגמה לחיבור: 5 = 2 + 3",
+      "tutorialLink": "https:\/\/he.wikibooks.org\/wiki\/%D7%97%D7%A9%D7%91%D7%95%D7%9F\/%D7%97%D7%99%D7%91%D7%95%D7%A8",
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 2,
+      "uniqueName": "level2",
+      "displayName": "שלב 2",
+      "topicId": 1,
+      "difficulty": 2,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 3,
+      "uniqueName": "level3",
+      "displayName": "שלב 3",
+      "topicId": 1,
+      "difficulty": 3,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 4,
+      "uniqueName": "level4",
+      "displayName": "שלב 4",
+      "topicId": 1,
+      "difficulty": 4,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 5,
+      "uniqueName": "level5",
+      "displayName": "שלב 5",
+      "topicId": 1,
+      "difficulty": 5,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 6,
+      "uniqueName": "level6",
+      "displayName": "שלב 6",
+      "topicId": 1,
+      "difficulty": 6,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 7,
+      "uniqueName": "level7",
+      "displayName": "שלב 7",
+      "topicId": 1,
+      "difficulty": 7,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 8,
+      "uniqueName": "level8",
+      "displayName": "שלב 8",
+      "topicId": 1,
+      "difficulty": 8,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 9,
+      "uniqueName": "level9",
+      "displayName": "שלב 9",
+      "topicId": 1,
+      "difficulty": 9,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 10,
+      "uniqueName": "level10",
+      "displayName": "שלב 10",
+      "topicId": 1,
+      "difficulty": 10,
+      "imagePath": "addition",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 11,
+      "uniqueName": "level11",
+      "displayName": "שלב 1",
+      "topicId": 2,
+      "difficulty": 1,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 12,
+      "uniqueName": "level12",
+      "displayName": "שלב 2",
+      "topicId": 2,
+      "difficulty": 2,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 13,
+      "uniqueName": "level13",
+      "displayName": "שלב 3",
+      "topicId": 2,
+      "difficulty": 3,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 14,
+      "uniqueName": "level14",
+      "displayName": "שלב 4",
+      "topicId": 2,
+      "difficulty": 4,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 15,
+      "uniqueName": "level15",
+      "displayName": "שלב 5",
+      "topicId": 2,
+      "difficulty": 5,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 16,
+      "uniqueName": "level16",
+      "displayName": "שלב 6",
+      "topicId": 2,
+      "difficulty": 6,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 17,
+      "uniqueName": "level17",
+      "displayName": "שלב 7",
+      "topicId": 2,
+      "difficulty": 7,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 18,
+      "uniqueName": "level18",
+      "displayName": "שלב 8",
+      "topicId": 2,
+      "difficulty": 8,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 19,
+      "uniqueName": "level19",
+      "displayName": "שלב 9",
+      "topicId": 2,
+      "difficulty": 9,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 20,
+      "uniqueName": "level20",
+      "displayName": "שלב 10",
+      "topicId": 2,
+      "difficulty": 10,
+      "imagePath": "subtraction",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 21,
+      "uniqueName": "level21",
+      "displayName": "שלב 1",
+      "topicId": 3,
+      "difficulty": 1,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 22,
+      "uniqueName": "level22",
+      "displayName": "שלב 2",
+      "topicId": 3,
+      "difficulty": 2,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 23,
+      "uniqueName": "level23",
+      "displayName": "שלב 3",
+      "topicId": 3,
+      "difficulty": 3,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 24,
+      "uniqueName": "level24",
+      "displayName": "שלב 4",
+      "topicId": 3,
+      "difficulty": 4,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 25,
+      "uniqueName": "level25",
+      "displayName": "שלב 5",
+      "topicId": 3,
+      "difficulty": 5,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 26,
+      "uniqueName": "level26",
+      "displayName": "שלב 6",
+      "topicId": 3,
+      "difficulty": 6,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 27,
+      "uniqueName": "level27",
+      "displayName": "שלב 7",
+      "topicId": 3,
+      "difficulty": 7,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 28,
+      "uniqueName": "level28",
+      "displayName": "שלב 8",
+      "topicId": 3,
+      "difficulty": 8,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 29,
+      "uniqueName": "level29",
+      "displayName": "שלב 9",
+      "topicId": 3,
+      "difficulty": 9,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 30,
+      "uniqueName": "level30",
+      "displayName": "שלב 10",
+      "topicId": 3,
+      "difficulty": 10,
+      "imagePath": "multiplication",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 31,
+      "uniqueName": "level31",
+      "displayName": "שלב 1",
+      "topicId": 4,
+      "difficulty": 1,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 32,
+      "uniqueName": "level32",
+      "displayName": "שלב 2",
+      "topicId": 4,
+      "difficulty": 2,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 33,
+      "uniqueName": "level33",
+      "displayName": "שלב 3",
+      "topicId": 4,
+      "difficulty": 3,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 34,
+      "uniqueName": "level34",
+      "displayName": "שלב 4",
+      "topicId": 4,
+      "difficulty": 4,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 35,
+      "uniqueName": "level35",
+      "displayName": "שלב 5",
+      "topicId": 4,
+      "difficulty": 5,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 36,
+      "uniqueName": "level36",
+      "displayName": "שלב 6",
+      "topicId": 4,
+      "difficulty": 6,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 37,
+      "uniqueName": "level37",
+      "displayName": "שלב 7",
+      "topicId": 4,
+      "difficulty": 7,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 38,
+      "uniqueName": "level38",
+      "displayName": "שלב 8",
+      "topicId": 4,
+      "difficulty": 8,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 39,
+      "uniqueName": "level39",
+      "displayName": "שלב 9",
+      "topicId": 4,
+      "difficulty": 9,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 40,
+      "uniqueName": "level40",
+      "displayName": "שלב 10",
+      "topicId": 4,
+      "difficulty": 10,
+      "imagePath": "division",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 41,
+      "uniqueName": "level41",
+      "displayName": "שלב 1",
+      "topicId": 8,
+      "difficulty": 1,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 42,
+      "uniqueName": "level42",
+      "displayName": "שלב 2",
+      "topicId": 8,
+      "difficulty": 2,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 43,
+      "uniqueName": "level43",
+      "displayName": "שלב 3",
+      "topicId": 8,
+      "difficulty": 3,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 44,
+      "uniqueName": "level44",
+      "displayName": "שלב 4",
+      "topicId": 8,
+      "difficulty": 4,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 45,
+      "uniqueName": "level45",
+      "displayName": "שלב 5",
+      "topicId": 8,
+      "difficulty": 5,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 46,
+      "uniqueName": "level46",
+      "displayName": "שלב 6",
+      "topicId": 8,
+      "difficulty": 6,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 47,
+      "uniqueName": "level47",
+      "displayName": "שלב 7",
+      "topicId": 8,
+      "difficulty": 7,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 48,
+      "uniqueName": "level48",
+      "displayName": "שלב 8",
+      "topicId": 8,
+      "difficulty": 8,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 49,
+      "uniqueName": "level49",
+      "displayName": "שלב 9",
+      "topicId": 8,
+      "difficulty": 9,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 50,
+      "uniqueName": "level50",
+      "displayName": "שלב 10",
+      "topicId": 8,
+      "difficulty": 10,
+      "imagePath": "mod",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 51,
+      "uniqueName": "level51",
+      "displayName": "שלב 1",
+      "topicId": 5,
+      "difficulty": 1,
+      "tutorialTextInfo": "בפעולת החזקה, מכפילים מספר כלשהו בעצמו מספר מסוים של פעמים.<br>\nהחזקה מסומנת בצורה הבאה: \\(5^3\\), אך לעתים נוהגים להשתמש בסימן ^.<br>\nדוגמה לחזקה:<br>\n\\( 5^3 = 5 \\times 5 \\times 5 = 125 \\)",
+      "tutorialLink": "https:\/\/he.wikibooks.org\/wiki\/%D7%97%D7%A9%D7%91%D7%95%D7%9F\/%D7%97%D7%96%D7%A7%D7%94",
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 52,
+      "uniqueName": "level52",
+      "displayName": "שלב 2",
+      "topicId": 5,
+      "difficulty": 2,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 53,
+      "uniqueName": "level53",
+      "displayName": "שלב 3",
+      "topicId": 5,
+      "difficulty": 3,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 54,
+      "uniqueName": "level54",
+      "displayName": "שלב 4",
+      "topicId": 5,
+      "difficulty": 4,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 55,
+      "uniqueName": "level55",
+      "displayName": "שלב 5",
+      "topicId": 5,
+      "difficulty": 5,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 56,
+      "uniqueName": "level56",
+      "displayName": "שלב 6",
+      "topicId": 5,
+      "difficulty": 6,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 57,
+      "uniqueName": "level57",
+      "displayName": "שלב 7",
+      "topicId": 5,
+      "difficulty": 7,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 58,
+      "uniqueName": "level58",
+      "displayName": "שלב 8",
+      "topicId": 5,
+      "difficulty": 8,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 59,
+      "uniqueName": "level59",
+      "displayName": "שלב 9",
+      "topicId": 5,
+      "difficulty": 9,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 60,
+      "uniqueName": "level60",
+      "displayName": "שלב 10",
+      "topicId": 5,
+      "difficulty": 10,
+      "imagePath": "power",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 61,
+      "uniqueName": "level61",
+      "displayName": "שלב 1",
+      "topicId": 6,
+      "difficulty": 1,
+      "tutorialTextInfo": "לפעולת השורש קרבה גדולה לפעולת החזקה. זוהי פעולת השורש.\nהשורש הנפוץ והשימושי ביותר הינו כמובן השורש הריבועי. שורש זה הוא הפעולה ההפוכה להעלאה בריבוע (חזקת 2).\nאילו העלינו מספר כלשהו, למשל 3 בריבוע, הפעולה שהייתה מחזירה את התוצאה חזרה ל-3 הינה פעולת השורש הריבועי.\nאת פעולת השורש הריבועי של a מסמנים כך:\n\\( \\sqrt {a} \\)\n\nעל מנת לנסות להמחיש את הפעולה לאשורה, ניקח למשל את המספר 25. ננסה למצוא שורש למספר זה. מכיוון שאנו כבר יודעים מראש ש-25 הוא מכפלה של 5 בעצמו, או במילים אחרות 5 בריבוע, הרי ששורש שלו הוא 5. כלומר\n\\( \\sqrt {25} = 5 \\)\n\n\nזאת מכיוון ש\n\\( (\\sqrt{25})^2 ={}5^2{}=25 \\)",
+      "tutorialLink": "https:\/\/he.wikibooks.org\/wiki\/%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94_%D7%AA%D7%99%D7%9B%D7%95%D7%A0%D7%99%D7%AA\/%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%94_%D7%AA%D7%99%D7%9B%D7%95%D7%A0%D7%99%D7%AA\/%D7%97%D7%95%D7%A7%D7%99_%D7%94%D7%97%D7%A9%D7%91%D7%95%D7%9F\/%D7%A9%D7%95%D7%A8%D7%A9%D7%99%D7%9D",
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 62,
+      "uniqueName": "level62",
+      "displayName": "שלב 2",
+      "topicId": 6,
+      "difficulty": 2,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 63,
+      "uniqueName": "level63",
+      "displayName": "שלב 3",
+      "topicId": 6,
+      "difficulty": 3,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 64,
+      "uniqueName": "level64",
+      "displayName": "שלב 4",
+      "topicId": 6,
+      "difficulty": 4,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 65,
+      "uniqueName": "level65",
+      "displayName": "שלב 5",
+      "topicId": 6,
+      "difficulty": 5,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 66,
+      "uniqueName": "level66",
+      "displayName": "שלב 6",
+      "topicId": 6,
+      "difficulty": 6,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 67,
+      "uniqueName": "level67",
+      "displayName": "שלב 7",
+      "topicId": 6,
+      "difficulty": 7,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 68,
+      "uniqueName": "level68",
+      "displayName": "שלב 8",
+      "topicId": 6,
+      "difficulty": 8,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 69,
+      "uniqueName": "level69",
+      "displayName": "שלב 9",
+      "topicId": 6,
+      "difficulty": 9,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 70,
+      "uniqueName": "level70",
+      "displayName": "שלב 10",
+      "topicId": 6,
+      "difficulty": 10,
+      "imagePath": "sqrt",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 71,
+      "uniqueName": "level71",
+      "displayName": "שלב 1",
+      "topicId": 7,
+      "difficulty": 1,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 72,
+      "uniqueName": "level72",
+      "displayName": "שלב 2",
+      "topicId": 7,
+      "difficulty": 2,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 73,
+      "uniqueName": "level73",
+      "displayName": "שלב 3",
+      "topicId": 7,
+      "difficulty": 3,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 74,
+      "uniqueName": "level74",
+      "displayName": "שלב 4",
+      "topicId": 7,
+      "difficulty": 4,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 75,
+      "uniqueName": "level75",
+      "displayName": "שלב 5",
+      "topicId": 7,
+      "difficulty": 5,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 76,
+      "uniqueName": "level76",
+      "displayName": "שלב 6",
+      "topicId": 7,
+      "difficulty": 6,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 77,
+      "uniqueName": "level77",
+      "displayName": "שלב 7",
+      "topicId": 7,
+      "difficulty": 7,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 78,
+      "uniqueName": "level78",
+      "displayName": "שלב 8",
+      "topicId": 7,
+      "difficulty": 8,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 79,
+      "uniqueName": "level79",
+      "displayName": "שלב 9",
+      "topicId": 7,
+      "difficulty": 9,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    },
+    {
+      "id": 80,
+      "uniqueName": "level80",
+      "displayName": "שלב 10",
+      "topicId": 7,
+      "difficulty": 10,
+      "imagePath": "add_sub_mult",
+      "xpPerStar": 5,
+      "minWinTime": 15000
+    }
+  ]
+}

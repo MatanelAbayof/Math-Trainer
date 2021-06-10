@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="heb.apps.mathtrainer">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+	<application
+		android:allowBackup="true"
+		android:fullBackupContent="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme"
+		tools:ignore="GoogleAppIndexingWarning">
+		<activity android:label="@string/display_settings"
+			android:name=".ui.activities.settings.DisplaySettingsActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize"/>
+		<activity
+			android:name=".ui.activities.DbBuilderActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.result.ShowAnswersResActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.result.QuizResultActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.choosers.ChooseLevelActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.choosers.ChooseTopicActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.choosers.ChooseCategoryActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.TestsActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.quiz.PlayQuizActivity"
+			android:launchMode="singleTop"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".ui.activities.MathBaseActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.settings.account.AccountSettActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize"
+			android:label="@string/account" />
+		<activity
+			android:name=".ui.activities.settings.SettingsActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize" />
+		<activity
+			android:name=".ui.activities.settings.MainSettingsActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize"
+			android:label="@string/settings" />
+		<activity
+			android:name=".ui.activities.SignUpActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize"
+			android:label="@string/sign_up" />
+		<activity
+			android:name=".ui.activities.MainActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|screenSize">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>

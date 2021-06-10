@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="true" android:state_pressed="true"> <!-- pressed & enabled -->
+		<shape>
+			<stroke android:width="3dp" android:color="@color/chooserButtonStrokePressed" />
+			<padding android:left="2dp"
+				android:top="2dp"
+				android:right="2dp"
+				android:bottom="2dp" />
+			<corners android:radius="10dp" />
+			<solid android:color="@color/chooserButtonBackPressed" />
+		</shape>
+	</item>
+	<item android:state_enabled="true" android:state_focused="true"> <!-- focused & enabled -->
+		<shape>
+			<stroke android:width="2dp" android:color="@color/chooserButtonStrokeFocused" />
+			<padding android:left="2dp"
+				android:top="2dp"
+				android:right="2dp"
+				android:bottom="2dp" />
+			<corners android:radius="10dp" />
+			<solid android:color="@color/chooserButtonBackFocused" />
+		</shape>
+	</item>
+	<item android:state_enabled="true"> <!-- default & enabled -->
+		<shape>
+			<stroke android:width="2dp" android:color="@color/chooserButtonStroke" />
+			<padding android:left="2dp"
+				android:top="2dp"
+				android:right="2dp"
+				android:bottom="2dp" />
+			<corners android:radius="10dp" />
+			<solid android:color="@color/chooserButtonBack" />
+		</shape>
+	</item>
+</selector>

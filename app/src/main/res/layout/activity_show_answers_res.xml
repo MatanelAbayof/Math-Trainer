@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_padding"
+    android:paddingBottom="@dimen/activity_vertical_padding"
+    android:paddingStart="@dimen/activity_horizontal_padding"
+    android:paddingLeft="@dimen/activity_horizontal_padding"
+    android:paddingEnd="@dimen/activity_horizontal_padding"
+    android:paddingRight="@dimen/activity_horizontal_padding"
+    tools:context=".ui.activities.quiz.result.ShowAnswersResActivity">
+
+	<ScrollView
+		android:id="@+id/scrollView_questionsSection"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:id="@+id/linearLayout_questions"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" />
+
+	</ScrollView>
+
+	<TextView
+		android:id="@+id/textView_notFoundQuestions"
+		android:visibility="gone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="@string/not_found_questions" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="3dp"
+    >
+
+    <EditText
+        android:id="@+id/editText_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/quizQuestionText"
+        android:singleLine="true"
+        android:lines="1"
+        android:gravity="center"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor"
+        android:text=""
+        />
+
+    <heb.apps.mathtrainer.ui.widget.BaseButton
+        android:id="@+id/button_submitAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/bt_blue"
+        android:textColor="@color/btText"
+        android:text="@android:string/ok"
+        android:padding="5dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

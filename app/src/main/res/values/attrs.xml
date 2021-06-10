@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="PercentageBarAttrs">
+		<attr name="percentage" format="integer" />
+		<attr name="showText" format="boolean" />
+	</declare-styleable>
+
+	<declare-styleable name="StarsViewAttrs">
+		<attr name="numOfStars" format="integer" />
+		<attr name="numOfFilledStars" format="integer" />
+		<attr name="starSize" format="integer" />
+	</declare-styleable>
+
+	<declare-styleable name="EquationTvAttrs">
+		<attr name="equation" format="string" />
+		<attr name="fontSize" format="string" />
+	</declare-styleable>
+</resources>

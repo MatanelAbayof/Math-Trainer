@@ -1,0 +1,83 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "uniqueName": "addition",
+      "displayName": "Addition",
+      "description": "Addition (often signified by the plus symbol \"+\") is one of the four basic operations of arithmetic.\nThe addition of two whole numbers is the total amount of those values combined.",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Addition",
+      "imagePath": "addition",
+      "orderIndex": 0
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "uniqueName": "subtraction",
+      "displayName": "Subtraction",
+      "description": "Subtraction is an arithmetic operation that represents the operation of removing objects from a collection.\nThe result of a subtraction is called a difference.\nSubtraction is signified by the minus sign (−).",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Subtraction",
+      "imagePath": "subtraction",
+      "orderIndex": 1
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "uniqueName": "multiplication",
+      "displayName": "Multiplication",
+      "description": "Multiplication (often denoted by the cross symbol \"×\", by the dot \"⋅\", by juxtaposition, or, on computers, by an asterisk \"*\") is one of the four elementary mathematical operations of arithmetic, with the others being addition, subtraction and division.",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Multiplication",
+      "imagePath": "multiplication",
+      "orderIndex": 2
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "uniqueName": "max_asm",
+      "displayName": "Mix",
+      "description": "",
+      "imagePath": "add_sub_mult",
+      "orderIndex": 3
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "uniqueName": "division",
+      "displayName": "Division",
+      "description": "Division is one of the four basic operations of arithmetic, the ways that numbers are combined to make new numbers.\nThe other operations are addition, subtraction, and multiplication",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Division_(mathematics)",
+      "imagePath": "division",
+      "orderIndex": 4
+    },
+    {
+      "id": 8,
+      "categoryId": 1,
+      "uniqueName": "mod",
+      "displayName": "Remainder",
+      "description": "In arithmetic, the remainder is the integer \"left over\" after dividing one integer by another to produce an integer quotient (integer division).<br>\nIn the division of 43 by 5 we have:<br>\n\\( 43 = 8 \\times 5 + 3 \\)<br>\nso 3 is the least positive remainder.",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Remainder",
+      "imagePath": "mod",
+      "orderIndex": 5
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "uniqueName": "power",
+      "displayName": "Power",
+      "description": "The power (or exponent) of a number says how many times to use the number in a multiplication.\nIt is written as a small number to the right and above the base number.",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Exponentiation",
+      "imagePath": "power",
+      "orderIndex": 6
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "uniqueName": "sqrt",
+      "displayName": "Square root",
+      "description": "In mathematics, a square root of a number \\(x\\) is a number \\(y\\) such that \\(y^2 = x\\).<br>\nin other words, a number \\(y\\) whose square is \\(x\\).",
+      "tutorialLink": "https:\/\/en.wikipedia.org\/wiki\/Square_root",
+      "imagePath": "sqrt",
+      "orderIndex": 7
+    }
+  ]
+}

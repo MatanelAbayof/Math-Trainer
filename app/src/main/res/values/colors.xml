@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general-->
+    <color name="colorPrimary">#373BBD</color>
+    <color name="colorPrimaryDark">#292DBC</color>
+    <color name="colorAccent">#7377E7</color>
+    <color name="actionBarTitle">#FFFFFF</color>
+    <color name="btText">#FFFFFF</color>
+
+    <!--setting_list_item-->
+    <color name="settLiPrimary">#00134E</color>
+    <color name="settLiSecond">#444343</color>
+    <!--user info card-->
+    <color name="userCardText">#0E0F24</color>
+    <color name="userCardBackground">#CFCFCF</color>
+    <color name="userCardBorder">#2B57B3</color>
+
+    <!--activity_play_quiz-->
+    <color name="quizQuestionNumText">#201F1F</color>
+
+    <!--quiz_question_text-->
+    <color name="quizQuestionText">#242424</color>
+
+    <!--activity_choose_category-->
+    <color name="chooseCategoryTitle">#222020</color>
+
+    <!--activity_choose_topic-->
+    <color name="chooseTopicTitle">#222020</color>
+    <color name="navigatorText">#000047</color>
+
+    <!--activity_level_topic-->
+    <color name="chooseLevelTitle">#222020</color>
+
+    <!--activity_quiz_result-->
+    <color name="quizResPrimaryMsgText">#111111</color>
+    <color name="quizResEarnXpText">#FF9800</color>
+    <color name="quizResTimeText">#4CAF50</color>
+    <color name="quizResNewRecordText">#B90505</color>
+    <color name="quizResDeltaFromRecordText">#2C2C2C</color>
+    <color name="quizResBtText">#FFFFFF</color>
+
+    <!--question_result_info_background-->
+    <color name="quesResInfBack">#FBEFFB</color>
+    <color name="quesResInfBackStroke">#842386</color>
+
+    <!--question_background-->
+    <color name="quesBack">#B2FFFFFF</color>
+    <color name="quesBackStroke">#181818</color>
+
+    <!--percentage_bar_background-->
+    <color name="percentageBarBack">#6F6F6F</color> <!--TODO use this-->
+    <color name="percentageBarBackStroke">#505050</color> <!--TODO use this-->
+    <color name="percentageBarText">#FFFFFF</color>
+
+    <!--quiz_question_result_info-->
+    <color name="quizQuesResInfoLabel">#141414</color>
+
+    <!--ProgressDialog-->
+    <color name="progressDialogMsg">#252525</color>
+
+    <!-- user_level_xp -->
+    <color name="ulxLevelText">#252525</color>
+    <color name="ulxXpText">#A56400</color>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~ buttons ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!--category_bt-->
+    <color name="categoryButtonName">#4F1D96</color>
+    <color name="categoryBtImgBack">#D3ACD8</color>
+
+    <!--topic_bt-->
+    <color name="topicButtonName">#752CD8</color>
+    <color name="topicBtImgBack">#AAF1AE</color>
+
+    <!--level_bt-->
+    <color name="levelButtonName">#752CD8</color>
+    <color name="levelButtonNum">#6F0415</color>
+    <color name="levelBtImgBack">#6ED8F0</color>
+
+    <!--chooser_button_background-->
+    <color name="chooserButtonBack">#EAEAEA</color>
+    <color name="chooserButtonStroke">#98A9FF</color>
+    <color name="chooserButtonBackFocused">#D3D3D3</color>
+    <color name="chooserButtonStrokeFocused">#758CFF</color>
+    <color name="chooserButtonBackPressed">#AAAAAA</color>
+    <color name="chooserButtonStrokePressed">#3B5BFF</color>
+
+    <!--help_button_background-->
+    <color name="helpBtDefBack">#797FCC</color>
+    <color name="helpBtDefStroke">#5B619B</color>
+    <color name="helpBtBackFocused">#4A51CE</color>
+    <color name="helpBtStrokeFocused">#3841A0</color>
+    <color name="helpBtBackPressed">#2C3BCA</color>
+    <color name="helpBtStrokePressed">#212B92</color>
+
+    <!--green button-->
+    <color name="greenBtBack">#4CAF50</color>
+    <color name="greenBtFocusedBack">#479E4A</color>
+    <color name="greenBtFocusedBackStroke">#265A27</color>
+    <color name="greenBtBackStroke">#2A6D2B</color>
+    <color name="greenBtPressedBack">#2B632D</color>
+    <color name="greenBtPressedBackStroke">#183A18</color>
+
+    <!--red button-->
+    <color name="redBtBack">#E74141</color>
+    <color name="redBtBackStroke">#A52A2A</color>
+    <color name="redBtPressedBack">#9B1D1D</color>
+    <color name="redBtPressedBackStroke">#691414</color>
+    <color name="redBtFocusedBack">#C22C2C</color>
+    <color name="redBtFocusedBackStroke">#941E1E</color>
+    <!--answer button-->
+    <color name="answerBtBack">#484ED3</color>
+    <color name="answerBtBackStroke">#09117C</color>
+    <color name="answerBtFocusedBack">#272A91</color>
+    <color name="answerBtFocusedBackStroke">#0C0F8A</color>
+    <color name="answerBtPressedBack">#02069E</color>
+    <color name="answerBtPressedBackStroke">#00044B</color>
+    <color name="answerBtDisabledBack">#4D51E7</color>
+    <color name="answerBtDisabledBackStroke">#222586</color>
+    <!--selected corrected answer button-->
+    <color name="selectedCorrectedAnswerBtBack">#4CAF50</color>
+    <color name="selectedCorrectedAnswerBtBackStroke">#215723</color>
+    <!--selected uncorrected answer button-->
+    <color name="selectedUncorrectedAnswerBtBack">#EE3E77</color>
+    <color name="selectedUncorrectedAnswerBtBackStroke">#BB2C5B</color>
+    <!--blue button-->
+    <color name="blueBtBack">#393FBB</color>
+    <color name="blueBtBackStroke">#09117C</color>
+    <color name="blueBtFocusedBack">#272A91</color>
+    <color name="blueBtFocusedBackStroke">#0C0F8A</color>
+    <color name="blueBtPressedBack">#02069E</color>
+    <color name="blueBtPressedBackStroke">#00044B</color>
+    <!--light purple button-->
+    <color name="lightPurpleBtBack">#E79CE7</color>
+    <color name="lightPurpleBtBackStroke">#B950B9</color>
+    <color name="lightPurpleBtFocusedBack">#DA5EDA</color>
+    <color name="lightPurpleBtFocusedBackStroke">#AF38AF</color>
+    <color name="lightPurpleBtPressedBack">#921D92</color>
+    <color name="lightPurpleBtPressedBackStroke">#681168</color>
+    <!--purple button-->
+    <color name="purpleBtBack">#DA74DA</color>
+    <color name="purpleBtBackStroke">#A034A0</color>
+    <color name="purpleBtFocusedBack">#D54CD5</color>
+    <color name="purpleBtFocusedBackStroke">#A01DA0</color>
+    <color name="purpleBtPressedBack">#7A107A</color>
+    <color name="purpleBtPressedBackStroke">#460846</color>
+    <!--orange button-->
+    <color name="orangeBtBack">#FCAE38</color>
+    <color name="orangeBtBackStroke">#BB7A18</color>
+    <color name="orangeBtFocusedBack">#E09420</color>
+    <color name="orangeBtFocusedBackStroke">#8B5C0A</color>
+    <color name="orangeBtPressedBack">#976205</color>
+    <color name="orangeBtPressedBackStroke">#633E03</color>
+    <!--light green button-->
+    <color name="lightGreenBtBack">#83DB82</color>
+    <color name="lightGreenBtBackStroke">#40B33F</color>
+    <color name="lightGreenBtFocusedBack">#4CB84B</color>
+    <color name="lightGreenBtFocusedBackStroke">#187C17</color>
+    <color name="lightGreenBtPressedBack">#155E14</color>
+    <color name="lightGreenBtPressedBackStroke">#063D04</color>
+    <!--disabled button-->
+    <color name="disabledBtBack">#918F8F</color>
+    <color name="disabledBtBackStroke">#706F6F</color>
+</resources>

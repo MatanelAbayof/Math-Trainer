@@ -1,0 +1,8 @@
+{
+  "msgs": [
+    { "stars": 0, "messages": [ "You can do better than that!", "Oh!"] },
+    { "stars": 1, "messages": [ "Not bad", "You're on your way to the destination"] },
+    { "stars": 2, "messages": [ "Very good!" ] },
+    { "stars": 3, "messages": [ "Excellent!", "You're the best!"] }
+  ]
+}

@@ -1,0 +1,164 @@
+<resources>
+
+    <!--general-->
+    <string name="app_name">מאמן מתמטיקה</string>
+    <string name="open_link_err_msg">לא ניתן לפתוח את הקישור</string>
+
+    <!--MainActivity-->
+    <string name="start_game">התחל משחק</string>
+    <string name="settings">הגדרות</string>
+    <string name="pre_user_hello_message">שלום</string>
+    <string name="share_via">שתף דרך-</string>
+    <string name="share_pre_message">הורידו את \'מאמן מתמטיקה\' בחינם:</string>
+    <string name="error">שגיאה</string>
+    <string name="not_signed_err_msg">עליך להירשם כדי שתוכל להשתמש באפליקציה</string>
+
+    <!-- user_level_xp -->
+    <string name="level_num">שלב %1$d</string>
+    <string name="xp_num">%1$d XP</string>
+
+    <!-- ContactUsDialog -->
+    <string name="contact_us_msg_label">הודעה:</string>
+    <string name="contact_us_hint_msg">הזן את תוכן ההודעה כאן</string>
+    <string name="send_msg">שלח</string>
+    <string name="via"> - </string>
+    <string name="resolution">רזולוציה</string>
+    <string name="pixels">פיקסלים</string>
+    <string name="model">דגם</string>
+    <string name="android_version">גרסת מערכת הפעלת</string>
+    <string name="application_version">גרסת אפליקציה</string>
+
+    <!-- WhatsNewDialog -->
+    <string name="whats_new_dialog_title">מה חדש?</string>
+
+    <!-- RateUsDialog -->
+    <string name="rate_us_msg">נהנים מהאפליקציית \'%1$s\'?\nאנא הקדישו לנו מספר שניות ודרגו אותנו, תודה רבה.</string>
+    <string name="open_market_err_msg">בעיה בטעינת חנות גוגל פליי</string>
+    <string name="rate_us_bt">דרג אותנו</string>
+    <string name="exit">יציאה</string>
+
+    <!--main menu-->
+    <string name="share">שתף</string>
+    <string name="about">אודות</string>
+    <string name="help">עזרה</string>
+    <string name="contact_us">צור קשר</string>
+    <string name="rate_us">דרגו אותנו</string>
+    <string name="open_db_builder">פתח עורך בסיס נתונים</string>
+    <string name="open_tests_activity">פתח מסך ניסויים</string>
+    <string name="open_dummy_res_activity">פתח מסך דמה של תוצאות משחק</string>
+
+    <!--SignUpActivity-->
+    <string name="fill_sign_up_info_msg">אנא מלא את הפרטים שלך:</string>
+    <string name="user_name_field">שם:</string>
+    <string name="user_name_field_hint">הזן כאן את שמך</string>
+    <string name="gender_field">מין:</string>
+    <string name="male">זכר</string>
+    <string name="female">נקבה</string>
+    <string name="sign_up">הרשמה</string>
+
+    <!--RestartAppDialog-->
+    <string name="restart_app_dialog_title">נדרש אתחול</string>
+    <string name="restart_app_dialog_msg">אתה צריך להפעיל מחדש את האפליקציה על מנת להחיל את השינויים הללו</string>
+    <string name="later">אח\"כ</string>
+    <string name="restart_app">אתחול</string>
+
+    <!--MainSettingsActivity-->
+    <string name="account">חשבון</string>
+    <string name="display">תצוגה</string>
+    <string name="notifications">התראות</string>
+    <string name="game">משחק</string>
+    <string name="logged_as">מחובר כ-</string>
+    <string name="not_connected">לא מחובר</string>
+    <string name="reset_all_settings_msg">האם אתה בטוח שברצונך לאפס את כל ההגדרות לברירת מחדל?</string>
+    <string name="reset_all_settings_success_msg">כל ההגדרות אופסו בהצלחה</string>
+
+    <!--main_settings_menu-->
+    <string name="reset_all_settings">איפוס הגדרות</string>
+
+    <!--AccountSettActivity-->
+    <string name="account_info_title">הפרטים שלך:</string>
+    <string name="log_out">התנתק</string>
+    <string name="log_out_msg">האם אתה בטוח שברצונך להתנתק? כל המידע יאבד</string>
+
+    <!--ChooseCategoryActivity-->
+    <string name="choose_category_title">בחר קטגוריה:</string>
+    <string name="category">קטגוריה</string>
+    <string name="more_info">מידע נוסף</string>
+    <string name="no_categories_error_msg">לא נמצאו קטגוריות</string>
+
+    <!--HelpCategoryDialog-->
+    <string name="close">סגור</string>
+
+    <!--ChooseTopicActivity-->
+    <string name="choose_topic_title">בחר נושא:</string>
+    <string name="topic">נושא</string>
+    <string name="no_topics_error_msg">לא נמצאו נושאים</string>
+
+    <!--PercentageBar-->
+    <string name="percentage">אחוזים</string>
+
+    <!--ChooseLevelActivity-->
+    <string name="choose_level_title">בחר שלב:</string>
+    <string name="level">שלב</string>
+    <string name="no_levels_error_msg">לא נמצאו שלבים</string>
+
+    <!--PlayQuizActivity-->
+    <string name="choose_gift">בחר מתנה</string>
+
+    <!--QuizResultActivity-->
+    <string name="time">זמן</string>
+    <string name="new_record">(שיא חדש!)</string>
+    <string name="backToMenu">חזור</string>
+    <string name="next_level">שלב הבא</string>
+    <string name="restart_game">משחק חדש</string>
+
+    <!--ShowAnswersResActivity-->
+    <string name="not_found_questions">לא נמצאו שאלות</string>
+
+    <!--quiz_question_result_info-->
+    <string name="is_corrected_answer">האם התשובה נכונה</string>
+    <string name="question_label">שאלה:</string>
+    <string name="correct_answer_label">התשובה הנכונה:</string>
+    <string name="user_answer_label">התשובה שענית:</string>
+
+    <!--LockedLevelDialog-->
+    <string name="level_locked_dialog_title">שלב נעול</string>
+    <string name="level_locked_dialog_msg">%1$s נעול.\nכדי לפתוח את השלב, אתה צריך לעבור את %2$s עם %3$d כוכבים לפחות</string>
+
+    <!--DbBuilderActivity-->
+    <string name="copied_to_clipboard_msg">הטקסט הועתק ללוח</string>
+
+    <!--DBTask-->
+    <string name="loading">טוען</string>
+
+    <!--ResumeGameDialog-->
+    <string name="resume_game_dialog_title">המשחק הושהה</string>
+    <string name="resume_game_dialog_msg">לחץ \'%1$s\' על-מנת להמשיך את המשחק</string>
+    <string name="continue_game">המשך</string>
+
+    <!--ExitGameDialog-->
+    <string name="exit_game_dialog_title">יציאה</string>
+    <string name="exit_game_dialog_msg">האם אתה בטוח שברצונך לצאת מהמשחק?</string>
+
+    <!--TimeFormatter-->
+    <string name="millis">מילי שניות</string>
+    <string name="seconds">שניות</string>
+    <string name="minutes">דקות</string>
+    <string name="hours">שעות</string>
+    <string name="days">ימים</string>
+    <string name="years">שנים</string>
+
+    <!--base_tutorial_dialog_view-->
+    <string name="tutorial_dialog_not_show_again">אל תציג שוב</string>
+
+    <!--BaseTutorialDialog-->
+    <string name="tutorial_dialog_title">מדריך</string>
+
+    <!--GameTutorialDialog-->
+    <string name="game_tutorial_dialog_title">מדריך למשחק</string>
+
+    <!--DisplaySettingsActivity-->
+    <string name="display_settings">הגדרות תצוגה</string>
+    <string name="math_display_type">סוג תצוגה מתמטית</string>
+    <string name="choose_math_display_type_msg">אנא בחר סוג תצוגה מתמטית:</string>
+</resources>
