@@ -21,5 +21,8 @@ and the user need to solve it.
 This project written in Kotlin.
 <hr/>
 
-## Screenshot
-<img width="300" height="600" src="https://raw.githubusercontent.com/MatanelAbayof/Math-Trainer/main/images/game.png" title="Math-Trainer" alt="Math-Trainer">
+## Screenshots
+<img style="margin-left: 2px" width="300" height="600" src="https://raw.githubusercontent.com/MatanelAbayof/Math-Trainer/main/images/main.png" title="Main" alt="Main">
+<img style="margin-left: 2px" width="300" height="600" src="https://raw.githubusercontent.com/MatanelAbayof/Math-Trainer/main/images/topic.png" title="Topic" alt="Topic">
+<img style="margin-left: 2px" width="300" height="600" src="https://raw.githubusercontent.com/MatanelAbayof/Math-Trainer/main/images/level.png" title="Level" alt="Level">
+<img style="margin-left: 2px" width="300" height="600" src="https://raw.githubusercontent.com/MatanelAbayof/Math-Trainer/main/images/game.png" title="Game" alt="Game">
